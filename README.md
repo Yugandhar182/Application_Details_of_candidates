@@ -1,1 +1,1 @@
-RESTAPI
+Application Details
