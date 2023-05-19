@@ -3,7 +3,7 @@
 <script>
   import { createEventDispatcher } from 'svelte';
 
-  import 'bootstrap/dist/css/bootstrap.min.css';
+
 
   const dispatch = createEventDispatcher();
 
@@ -94,15 +94,12 @@
   };
 </script>
 
+
 <style>
-  .error {
-    color: red;
-  }
-  .submit-button {
-    background-color: yellow;
-    color: rgb(16, 184, 61);
-  }
+  @import 'bootstrap/dist/css/bootstrap.min.css';
 </style>
+
+
 
 <div class="container mt-6">
   <form on:submit|preventDefault={validateForm}>
